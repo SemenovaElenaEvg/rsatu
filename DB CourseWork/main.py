@@ -1,9 +1,10 @@
 from http.server import HTTPServer, CGIHTTPRequestHandler
 import cgi
-import postgresql.driver as pg_driver
+import psycopg2
+#import postgresql.driver as pg_driver
 
 server_address = ("localhost", 8000)
 httpd = HTTPServer(server_address, CGIHTTPRequestHandler)
 httpd.serve_forever()
 
-db = pg_driver.connect(user='postgres', password='postgres', host='192.168.0.1', database='postgres', port=5432)
+db = psycopg2.connect(user='postgres', password='postgres', host='192.168.0.1', database='postgres', port=5432)
