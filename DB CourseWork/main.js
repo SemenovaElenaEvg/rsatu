@@ -1,18 +1,24 @@
 "use strict";
 
-function entry() {
+function pacientAuth() {
     var
         login = "",
         password = "";
 
 
-    var authWindow = window.open("about:blank", "hello", "width=200,height=200");
-
-    //login = prompt("Введите логин(если нет логина, используйте номер страхового полиса)");
-
-   // alert(login);
+    login = prompt("Введите логин");
     password = prompt("Введите пароль");
 
-    alert(password);
+    // метод запроса к БД
+}
 
+function doctorAuth() {
+        var
+        login = "",
+        password = "";
+
+    login = prompt("Введите логин");
+    password = prompt("Введите пароль");
+
+    // метод запроса к БД
 }
