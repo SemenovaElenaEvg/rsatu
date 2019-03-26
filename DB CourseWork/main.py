@@ -3,7 +3,7 @@ import cgi
 import psycopg2
 #import postgresql.driver as pg_driver
 
-server_address = ("localhost", 8800)
+server_address = ("localhost", 8000)
 httpd = HTTPServer(server_address, CGIHTTPRequestHandler)
 httpd.serve_forever()
 

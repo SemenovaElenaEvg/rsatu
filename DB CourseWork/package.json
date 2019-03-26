@@ -1,0 +1,23 @@
+{
+  "name": "coursework",
+  "version": "1.0.0",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "description": "test",
+  "main": "main.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "testcommand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SemenovaElenaEvg/rsatu/tree/CourseWorkDB"
+  },
+  "keywords": [
+    "4815162342"
+  ],
+  "author": "esemenova",
+  "license": "ISC"
+}
